@@ -3,7 +3,7 @@ GBDT衍生变量及其应用
 
 ## 衍生GBDT变量
 * get\_gbdt\_path\_var  将GBDT各子树的路径衍生为变量,变量名包含了路径的节点信息,便于回溯
-* get\_data\_gbdt  回溯GBDT衍生变量给其他数据集（根据各变量取值判断直接回溯）
+* get\_data\_gbdt  回溯GBDT衍生变量给其他数据集（根据各变量取值判断直接回溯，比sklearn的apply和transform更易推广）
 
 
 ## 规则提取(可用于风控策略或反欺诈的规则)
